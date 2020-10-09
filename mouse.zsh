@@ -21,7 +21,7 @@
 #  - X clipboard handling if xsel(1) or xclip(1) is available (see
 #    note below).
 # 
-# addionnaly, if you are using xterm and don't want to use the mouse
+# additionally, if you are using xterm and don't want to use the mouse
 # tracking system, you can map some button click events so that they
 # send \E[M<bt>^X[<y><x> where <bt> is the character 0x20 + (0, 1, 2)
 # <x>,<y> are the coordinate of the mouse pointer. This is usually done
